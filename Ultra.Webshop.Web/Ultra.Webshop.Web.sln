@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultra.Webshop.Web", "Ultra.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultra.Webshop.Web.Tests", "Ultra.Webshop.Web.Tests\Ultra.Webshop.Web.Tests.csproj", "{48479061-C545-491B-BA3E-A64E76CA01BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultra.Webshop.Domain", "Ultra.Webshop.Domain\Ultra.Webshop.Domain.csproj", "{08568E97-CB5D-4114-8142-408E10DE3DF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{48479061-C545-491B-BA3E-A64E76CA01BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48479061-C545-491B-BA3E-A64E76CA01BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48479061-C545-491B-BA3E-A64E76CA01BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08568E97-CB5D-4114-8142-408E10DE3DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08568E97-CB5D-4114-8142-408E10DE3DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08568E97-CB5D-4114-8142-408E10DE3DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08568E97-CB5D-4114-8142-408E10DE3DF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
