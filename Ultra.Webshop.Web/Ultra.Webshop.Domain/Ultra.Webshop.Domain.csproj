@@ -35,6 +35,7 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Barcode.cs" />
     <Compile Include="Brand.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Picture.cs" />
