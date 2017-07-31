@@ -10,6 +10,6 @@ namespace Ultra.Webshop.Domain
     {
         public string Code { get; set; }
 
-
+        public Picture Picture { get; set; }
     }
 }
