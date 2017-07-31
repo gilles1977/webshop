@@ -8,20 +8,18 @@ namespace Ultra.Webshop.Domain
 {
     public class Order
     {
-        public IList<OrderItem> Items { get; set; }
-    }
+        public int Id { get; set; }
 
-    public class OrderItem
-    {
-        public Product Product { get; set; }
+        public IList<OrderedProduct> OrderedProducts { get; set; }
 
-        public decimal Discount { get; set; }
+        public decimal Amount { get; set; }
 
-        public int Quantity { get; set; }
+        public string UserId { get; set; }
 
-        public decimal Price
-        {
-            get { return Product.Price * Quantity * Discount; }
-        }
+        public string Status { get; set; }
+
+        public DateTime OrderDate { get; set; }
+
+        public DateTime DeliveryDate { get; set; }
     }
 }
